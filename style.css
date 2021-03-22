@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+:root{
+    --primary-color: #000;
+}
+* { 
+    box-sizing: border-box; 
+    padding: 0; 
+    margin: 0;
+    font-family:Redressed;
+}
+/*navbar*/
+.navbar {
+    background: linear-gradient(#000, #333);
+    color: #fff;
+    height: 70px;   
+}
+
+.navbar a:hover {
+    color: blanchedalmond;
+    border-bottom: blanchedalmond 1px solid;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar .flex {
+    align-content: center;
+    justify-content: space-between;
+} 
+
+.flex {
+    display: flex;
+    height: 100%;
+    align-content: center;
+    justify-content: space-between;
+}
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 auto;
+    align-items: center;
+    padding: auto; 
+    overflow: hidden;
+}
+
+
+.navbar ul {
+    align-content:center;
+    justify-content: space-between;
+    display: flex;
+}
+
+ul {
+    list-style-type:none ;
+}
+
+.navbar .container a {
+    text-decoration: none;
+}
+
+/*showcase*/
+.showcase h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.showcase {
+    background: radial-gradient( rgb(216, 141, 126), rgb(185, 85, 68));
+    height: 300px;
+    position: relative; 
+}
+
+.showcase-text {
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+.p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.btn {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; 
+    background-color: rgb(233, 120, 83);
+}
+
+.btn-outline {
+    border: 1px solid #fff;
+    background-color: transparent; 
+}
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.card {
+    margin: 10px 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333; 
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.showcase-form {
+    position: absolute;
+    top: 200px;
+    height: 300px;
+    z-index: 100;
+    justify-self: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 350px;
+    
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+    border: 0;
+    border-bottom: 1px solid #b4becb ;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.showcase-form a {
+    color: #b4becb
+}
+
+.showcase-form .form-control {
+    margin: 30px 0;
+}
+.showcase-form h5 {
+    margin: 10px;
+    text-align: center;
+}
+
+/*chill*/
+.chill {
+    width: auto;
+    padding: 20px;
+}
+
+.chill h2{
+    font-size: 50px;
+    text-align: center;
+}
+.chill p {
+    padding: 0 auto;
+    font-size: 25px;
+}
+
+.chill .flex{
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.blankdiv {
+    height: 300px;
+}
+
+.phony {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.phony h1 {
+    color:chartreuse;
+}
+.phony i{
+    margin: 30px;
+}
+
+.inspect {
+    padding: 20px;
+    background: linear-gradient(#000, #333);
+    color: #fff;
+}
+.inspect .flex p{
+    padding: 20px 50px; 
+}
+
+.inspect .flex {
+    justify-content: flex-start;
+    align-items:center;
+    padding-left: 100px;
+}
+.inspect h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer {
+    background-color: #000;
+    color: #b4becb;   
+    
+    
+}
+
+.footer h1 , p {
+    margin: 0 50px;
+    padding: 10px 30px;
+
+}
+
+.grid {
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);    
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   
+}
